@@ -15,4 +15,71 @@ body {
     filter: drop-shadow(0 0 10px white);
 }
 
-.container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+.container { 
+     height: 100vh; 
+}
+
+.header-wraper{
+    max-width: 1920px;
+    width: 100%;
+}
+.header-wraper-container{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+.image025{
+    max-width: 150px;
+    width: 100%;
+    cursor: pointer;
+}
+.navigation{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-ul{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: "BPG Banner QuadroSquare", sans-serif;
+    font-size: 20px;
+}
+.nav-a{
+    color: black;
+}
+.nav-a:hover{
+    color: yellow;
+}
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px white);
+  }
+
+.product-image{
+    max-width: 300px;
+    width: 100%;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.product-image:hover{
+    width: 500px;
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    width: 100%;
+    padding-top: 100px;
+    margin: 0 auto;
+   flex-wrap: wrap;
+}
